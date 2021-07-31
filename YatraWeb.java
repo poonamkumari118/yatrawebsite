@@ -10,7 +10,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
@@ -32,7 +31,7 @@ public class YatraWeb {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Automation testing\\Chrome\\Chromedriver.exe");
 			
-		WebDriver driver = new ChromeDriver(); 
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
 		//Go to Test URL https://www.yatra.com/
